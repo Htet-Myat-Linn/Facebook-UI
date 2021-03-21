@@ -1,0 +1,179 @@
+/* Color Resources */
+:root {
+  /* Dark Theme */
+  --primary-blue: #2d88ff;
+  --primary-dark: #18191a;
+  --semi-dark: #242526;
+  --soft-dark: rgb(58 59 60);
+
+  /* Font and Emoji Colors */
+  --danger: #f02849;
+  --success: #42b15d;
+  --warning: #e8ae28;
+  --text-color: #cfd6c9;
+  --text-color-white: #ffffff;
+  --place-holder-color: rgb(133 135 139);
+}
+
+/* Body default Configurations */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: var(--primary-dark);
+}
+
+/* Navigation Bar */
+.navigation {
+  display: flex;
+  width: 100%;
+  background-color: var(--semi-dark);
+  justify-content: space-between;
+  align-items: center;
+}
+/* Navigation Left */
+.left {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  padding: 3px 10px;
+}
+#logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-right: 5px;
+}
+.search-icon {
+  font-size: 14px;
+}
+.search-box {
+  background-color: var(--soft-dark);
+  padding: 7px 8px;
+  display: flex;
+  color: var(--place-holder-color);
+  border-radius: 30px;
+}
+.input-box {
+  background-color: var(--soft-dark);
+  border: 0px;
+  padding: 2px 6px;
+  color: white;
+}
+.input-box:focus {
+  outline: none;
+}
+/* Navigation Center */
+.center {
+  width: 60%;
+}
+.categories {
+  display: flex;
+  justify-content: center;
+}
+.category {
+  font-size: 19px;
+  padding: 10px 35px;
+  color: var(--text-color);
+  margin-right: 8px;
+  position: relative;
+}
+/*Category Active and Customized Icons */
+
+.active i {
+  color: var(--primary-blue);
+}
+.category.active {
+  border-bottom: 2px solid var(--primary-blue);
+}
+.circle-border i {
+  border: 1.5px solid var(--text-color);
+  border-radius: 50%;
+  font-size: 13px;
+  padding: 3px 2px;
+}
+
+/*Category Notification */
+.notification {
+  position: absolute;
+  background-color: var(--danger);
+  color: var(--text-color-white);
+  font-size: 9px;
+  padding: 1px 0px;
+  width: 13px;
+  border-radius: 50%;
+  text-align: center;
+}
+/* Hover Effects */
+.category:hover {
+  background-color: var(--soft-dark);
+  border-radius: 10px;
+}
+.categories .active:hover {
+  background-color: var(--semi-dark);
+  border-radius: 0px;
+}
+.active.circle-border i {
+  border: 1.5px solid var(--primary-blue);
+}
+/* Navigation Right */
+.right {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+}
+.options-container {
+  display: flex;
+  padding: 3px 2.5px;
+  align-items: center;
+  position: relative;
+}
+.option {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: var(--soft-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-white);
+  padding: 3px 2px;
+}
+.option img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+.find-friends {
+  color: var(--text-color-white);
+  padding: 8px 12px;
+  background-color: var(--soft-dark);
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Option and Profile Notification */
+/* Option Notification uses the classes of center Category Notification */
+.option-notification {
+  top: -2px;
+  right: 3px;
+  width: 15px !important;
+  height: 15px !important;
+}
+.profile-notification {
+  width: 10px;
+  height: 10px;
+  background-color: var(--danger);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 3.5px;
+  right: 3px;
+}
