@@ -8,35 +8,45 @@
     <!-- Icon and Stylesheet -->
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/icon.ico">
-    <link rel="stylesheet" href="../../Feather-icon/feather.css">
+    <link rel="stylesheet" href="Feather-icon/feather.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <nav class="navigation">
-        <div class="left">
+        <div class="nav-left">
             <a href="D:\Data\SWD\Project\Facebook-UI\index.html"><img src="images/icon.png" id="logo" alt="Facebook"></a>
             <div class="search-box">
                 <i class="feather-search search-icon"></i>
                 <input type="text" class="input-box" name="input" placeholder="Search Facebook">
             </div>
         </div>
-        <div class="center">
+        <div class="nav-center">
             <div class="categories">
                 <div class="category active">
                     <i class="fas fa-home "></i>
                     
                 </div>
                 <div class="category ">
-                    <i class="fas fa-user-friends"></i>
+                    <i class="feather-airplay"></i>
                     <span class="notification">1</span>
                 </div>
+                <div class="category ">
+                    <i class="fas fa-store"></i>
+                    <span class="notification">1</span>
+                </div>
+                
                 <div class="category circle-border ">
                     <i class="fas fa-users"></i>
                     <span class="notification">9+</span>
                 </div>
+                <div class="category circle-border ">
+                    <img src="https://img.icons8.com/nolan/64/facebook-gaming.png"/>
+                    <span class="notification">9+</span>
+                </div>
+                
             </div>
         </div>
-        <div class="right">
+        <div class="nav-right">
             <div class="options-container">
                 <div class="find-friends">
                     <h6>Find Friends</h6>
@@ -61,11 +71,385 @@
             </div>
             <div class="options-container">
                 <div class="option">
-                    <img src="images/profile.jpg" alt="">
+                    <img src="images/profile2.jpg" alt="">
                     <span class="profile-notification"></span>
                 </div>
             </div>
         </div>
     </nav>
+
+    <section class="newsfeed">
+        <div class="left-side">
+            <div class="widgets">
+                <div class="left-option">
+                    <img src="images/profile2.jpg" alt="">
+                    <h5>Htet Myat Linn</h5>
+                </div>
+                
+                <div class="left-option">
+                    <i class="fas fa-shield-virus gradient"></i>
+                    <h5>COVID-19 Information Center</h5>
+                </div>
+                <div class="left-option">
+                    <i class="fas fa-user-friends" style="color: rgb(153, 223, 211);"></i>
+                    <h5>Friends</h5>
+                </div>
+                <div class="left-option">
+                    <i class="fas fa-bookmark" style="color: rgb(247, 117, 252);"></i>
+                    <h5>Saved</h5>
+                </div>
+                <div class="left-option">
+                    <i class="fas fa-flag" style="color: rgb(250, 158, 20);"></i>
+                    <h5>Pages</h5>
+                </div>
+                <div class="left-option">
+                    <i class="fas fa-angle-down see-more"></i>
+                    <h5>See More</h5>
+                </div>
+            </div>
+            <hr class="custom-hr" style="margin-top: 5px;">
+            <div class="shortcuts">
+                <div class="heading">
+                    <h4>Your Shortcuts</h4>
+                </div>
+                <div class="left-option">
+                    <img class="shortcut-icon" src="images/my-group1.jpg" alt="">
+                    <h5>Myanmar IT&Engineering Space
+                    </h5>
+                </div>
+                <div class="left-option">
+                    <img class="shortcut-icon" src="images/my-group2.jpg" alt="">
+                    <h5>ရဲသား ဟိုမိုဂရု
+                    </h5>
+                </div>
+                <div class="left-option">
+                    <img class="shortcut-icon" src="images/my-group3.jpg" alt="">
+                    <h5>University of Information Technology (UIT)
+                    </h5>
+                </div>
+                <div class="left-option">
+                    <img class="shortcut-icon" src="images/my-group4.jpg" alt="">
+                    <h5>UIT 8th Batch
+                    </h5>
+                </div>
+                <div class="left-option">
+                    <img class="shortcut-icon" src="images/my-group5.jpg" alt="">
+                    <h5>JO JO Lovers
+                    </h5>
+                </div>
+                <div class="left-option">
+                    <img class="shortcut-icon" src="images/my-group6.jpg" alt="">
+                    <h5>Among Us Myanmar Players
+                    </h5>
+                </div>
+                <div class="left-option">
+                    <i class="fas fa-angle-down see-more"></i>
+                    <h5>See More</h5>
+                </div>
+            </div>
+        </div>
+        <div class="newsfeed-center">
+            <div class="myday-container">
+                <div class="myday-card me" style="background-image:url('images/profile2.jpg')">
+                    <i class="fas fa-plus" ></i>
+                    <p>Create a Story</p>
+                </div>
+                <div class="myday-card" style="background-image:url('images/myday1.jpg');background-color: rgb(65, 63, 63);">
+                    <img src="images/profile1.jpg" alt="" class="myday-profile">
+                    <p class="myday-owner">Zen Oliva</p>
+                    
+                </div>
+                <div class="myday-card" style="background-image:url('images/myday2.jpg');background-color: gainsboro;">
+                    <img src="images/profile3.jpg" alt="" class="myday-profile">
+                    <p class="myday-owner">Rasha</p>
+                    
+                </div>
+                <div class="myday-card" style="background-image:url('images/myday3.jpg');background-color: rgb(225, 226, 153);">
+                    <img src="images/profile4.jpg" alt="" class="myday-profile">
+                    <p class="myday-owner">Sarah</p>
+                </div>
+                <div class="myday-card" style="background-image:url('images/myday4.jpg');background-color:rgba(234, 241, 169, 0.541) ; ">
+                    <img src="images/profile5.jpg" alt="" class="myday-profile">
+                    <p class="myday-owner">Oriza Steeve Rizona</p>
+                </div>
+                <div class="myday-card" style="background-image:url('images/irrawaddyNews.jpg');background-color:rgba(234, 241, 169, 0.541) ; ">
+                    <img src="images/profile7.jpg" alt="" class="myday-profile">
+                    <p class="myday-owner">Pyae Sone Min Naing</p>
+                </div>
+                <div class="overflow-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="posting">
+                <div class="create-post">
+                    <img src="images/profile2.jpg" alt="">
+                    <input type="text" class="post-text-box" name="post" placeholder="What's on your mind, Htet?">
+                </div>
+                <hr class="custom-hr">
+                <div class="posting-choices">
+                    <div class="posting-choice">
+                        <i class="fas fa-video icon red"></i>
+                        <p>Live Video</p>
+                    </div>
+                    <div class="posting-choice">
+                        <i class="fas fa-images icon green"></i>
+                        <p>Photo/Video</p>
+                    </div>
+                    <div class="posting-choice">
+                        <i class="far fa-laugh icon yellow"></i>
+                        <p>Feeling/Activity</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-room">
+                <div class="create-room">
+                    <i class="fas fa-video gradient icon-container"><i class="fas fa-plus"></i></i>
+                    <p>Create Room</p>
+                </div>
+                <div class="online-user-container">
+                    <img src="images/profile10.jpg" alt="">
+                    <img src="images/profile3.jpg" alt="">
+                    <img src="images/profile9.jpg" alt="">
+                    <img src="images/profile4.jpg" alt="">
+                    <img src="images/profile5.jpg" alt="">
+                    <img src="images/profile6.jpg" alt="">
+                    <img src="images/profile7.jpg" alt="">
+                    <img src="images/profile8.jpg" alt="">
+                    <img src="images/profile.jpg" alt="">
+                    <img src="images/profile1.jpg" alt="">
+                </div>
+                <div class="scroll-right">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="profile-and-options">
+                    <div class="profile">
+                        <img src="images/irrawaddyNewsProfile.png" alt="">
+                        <p>
+                            <a  class="name custom-a" href="">The Irrawaddy - Burmese Edition</a>
+                            <span class="time"><a class="custom-a" href="">1h</a> · <i class="fas fa-globe-americas"></i></span>
+                        </p>
+                    </div>
+                    <div class="options">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="article">ဘီဘီစီ သတင်းထောက် ကိုအောင်သူရ ပြန်လည် လွတ်မြောက်လာ<br>
+                        ဧရာဝတီ၊ မတ် ၂၂၊ ၂၀၂၁<br>
+                        ပြီးခဲ့သည့် ရက်ပိုင်း နေပြည်တော် ဒက္ခိဏသီရိခရိုင် တရားရုံးရှေ့တွင် သတင်းရယူနေစဉ် အဖမ်းခံရသည့် ဘီဘီစီ သတင်းထောက် ကိုအောင်သူရသည် ယနေ့ နံနက်ပိုင်းက ပြန်လည် လွတ်မြောက်လာပြီ ဖြစ်ကြောင်း သတင်းရရှိသည်။<br>
+                        ကိုအောင်သူရသည် Mizzima သတင်းထောက်ဟောင်း ကိုသန်းထိုက်အောင်နှင့် အတူ မတ်လ ၁၉ ရက်နေ့ နေပြည်တော် ဒက္ခိဏခရိုင်တရားရုံးရှေ့တွင် အဖမ်းခံရခြင်း ဖြစ်ပြီး ကိုသန်းထိုက်အောင်မှာ ယနေ့အချိန်အထိ ပြန်လည် လွတ်မြောက်လာခြင်း မရှိသေးပေ။  <br>
+                        ပုံစာ - ယနေ့ နံနက်ပိုင်းက ပြန်လည် လွတ်မြောက်လာသည့် ကိုအောင်သူရ (ဓာတ်ပုံ - ဧရာဝတီ)</p>
+                    <img src="images/irrawaddyNews.jpg" alt="">
+                </div>
+                <div class="actions">
+                    <div class="reactions">
+                        <div class="react">
+                            <img src="images/png-16/like-16x16-1991059.png" alt="">
+                            <img src="images/png-16/love-16x16-1991064.png" alt="">
+                            <img src="images/png-16/care-16x16-1991058.png" alt="">
+                        </div>
+                        <p><a class="custom-a">Si Thu Aung, Shoon and 39K others</a></p>
+                    </div>
+                    <div class="comments-shares">
+                        <span><a class="custom-a">394 Comments</a></span>
+                        <span><a class="custom-a">2.4K Shares</a></span>
+                    </div>
+                </div>
+                <hr class="custom-hr padding-15">
+                <div class="user-actions">
+                    <div class="user-actions-icons"><i class="far fa-thumbs-up"></i>Like</div>
+                    <div class="user-actions-icons"><i class="fas fa-comment-alt"></i>Comment</div>
+                    <div class="user-actions-icons"><i class="fas fa-share"></i>Share</div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="profile-and-options">
+                    <div class="profile">
+                        <img src="images/SinonProfile.jpg" alt="">
+                        <p>
+                            <span class="name"><a  class=" custom-a" href="">Sinon Loresca</a> is in <a href="" class="custom-a">Landon, United Kingdom.</a></span>
+                            <span class="time"><a class="custom-a" href="">5h</a> · <i class="fas fa-globe-americas"></i></span>
+                        </p>
+                    </div>
+                    <div class="options">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="article">ကျွန်တော်အခု London, UK မှာ ရောက်ရှိနေပါတယ် <br>
+                        မြန်မာလူမျိုးများရဲ့ democracy နဲ့  တရားမျှတမှုအတွက် ရပ်တည်ပေးလျှက်ပါ<br>
+                        Now that I am in London, UK I will louder my voice for our beloved Myanmar <br>
+                        for democracy and for the great people of myanmar
+                        </p>
+                </div>
+                <div class="actions">
+                    <div class="reactions">
+                        <div class="react">
+                            <img src="images/png-16/like-16x16-1991059.png" alt="">
+                            <img src="images/png-16/love-16x16-1991064.png" alt="">
+                            <img src="images/png-16/care-16x16-1991058.png" alt="">
+                        </div>
+                        <p><a class="custom-a">Linn Khant Maung, Kyaw and 90K others</a></p>
+                    </div>
+                    <div class="comments-shares">
+                        <span><a class="custom-a">5.3K Comments</a></span>
+                        <span><a class="custom-a">9.4K Shares</a></span>
+                    </div>
+                </div>
+                <hr class="custom-hr padding-15">
+                <div class="user-actions">
+                    <div class="user-actions-icons"><i class="far fa-thumbs-up"></i>Like</div>
+                    <div class="user-actions-icons"><i class="fas fa-comment-alt"></i>Comment</div>
+                    <div class="user-actions-icons"><i class="fas fa-share"></i>Share</div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="profile-and-options">
+                    <div class="profile">
+                        <img src="images/BBCBurmeseProfile.png" alt="">
+                        <p>
+                            <a  class="name custom-a" href="">BBC Burmese</a>
+                            <span class="time"><a class="custom-a" href="">45m</a> · <i class="fas fa-globe-americas"></i></span>
+                        </p>
+                    </div>
+                    <div class="options">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="article">လှည်းတန်းမှာ အရုဏ်တက်သပိတ်ပြုလုပ်<br>
+                        ရဲနဲ့စစ်တပ်လုံခြုံရေး တင်းကျပ်ထားတဲ့ရန်ကုန် ၊<br>
+                        လှည်းတန်းမှာ စစ်အာဏာရှင်ဆန်ကျင့်ရေးအရုဏ်သပိတ်ကို ဒီကနေ့ မတ်လ ၂၂ ရက်မှာ လူငယ်တွေစုပြီးလုပ်ခဲ့ကြပါတယ်။လှည်းတန်းနေပြည်သူအချို့စုပေါင်းပြီး လှည်းတန်းလမ်းမတစ်လျှောက်ချီတက်ခဲ့ကြတာပါ။<br>
+                        ဘီဘီစီမြန်မာပိုင်း</p>
+                    <img src="images/BBCBurmeseNews.jpg" alt="">
+                </div>
+                <div class="actions">
+                    <div class="reactions">
+                        <div class="react">
+                            <img src="images/png-16/like-16x16-1991059.png" alt="">
+                            <img src="images/png-16/love-16x16-1991064.png" alt="">
+                            <img src="images/png-16/care-16x16-1991058.png" alt="">
+                        </div>
+                        <p><a class="custom-a">Pyae Sone Min Naing, Shoon and 59K others</a></p>
+                    </div>
+                    <div class="comments-shares">
+                        <span><a class="custom-a">394 Comments</a></span>
+                        <span><a class="custom-a">2.4K Shares</a></span>
+                    </div>
+                </div>
+                <hr class="custom-hr padding-15">
+                <div class="user-actions">
+                    <div class="user-actions-icons"><i class="far fa-thumbs-up"></i>Like</div>
+                    <div class="user-actions-icons"><i class="fas fa-comment-alt"></i>Comment</div>
+                    <div class="user-actions-icons"><i class="fas fa-share"></i>Share</div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="profile-and-options">
+                    <div class="profile">
+                        <img src="images/MyanmarNow.jpg" alt="">
+                        <p>
+                            <a  class="name custom-a" href="">Myanmar Now</a>
+                            <span class="time"><a class="custom-a" href="">1h</a> · <i class="fas fa-globe-americas"></i></span>
+                        </p>
+                    </div>
+                    <div class="options">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="article">ရှမ်းပြည်နယ်မြောက်ပိုင်း လားရှိုးမြို့ အမှတ် (၄ ) ရပ်ကွက်ရှိ ရဲရိပ်သာအဆောင်သည် ယနေ့ (မတ် ၂၂) နေ့ခင်း ၁ နာရီခွဲအချိန်ခန့်က ဗုံးခွဲတိုက်ခိုက်ခံခဲ့ရသည်ဟု လားရှိုးမြို့ရှိ လူမှုကူညီရေးအသင်းတစ်ခုထံမှ သိရသည်။အဆိုပါ ရိပ်သာအတွင်း ရဲဝန်ထမ်းများနေထိုင်သော်လည်း ဗုံးပေါက်ကွဲမှုကြောင့် လူထိခိုက်ခြင်းရှိ/မရှိကို လတ်တလော မသိရသေးသော်လည်း အဆိုပါ ရဲရိပ်သာကို ဖောက်ခွဲအပြီး အခြားအဆောက်အအုံတစ်ခုကို ဖောက်ခွဲရန် ပြင်ဆင်နေသူများကို အဖမ်းခံလိုက်ရသည်ဟု အဆိုပါ လူမှုကူညီရေးအသင်းမှ လာရှိုးမြို့ခံက ပြောသည်။</p>
+                    <img src="images/MyanmarNowNews.jpg" alt="">
+                </div>
+                <div class="actions">
+                    <div class="reactions">
+                        <div class="react">
+                            <img src="images/png-16/like-16x16-1991059.png" alt="">
+                            <img src="images/png-16/love-16x16-1991064.png" alt="">
+                            <img src="images/png-16/care-16x16-1991058.png" alt="">
+                        </div>
+                        <p><a class="custom-a">Kyaw, Shoon and 108K others</a></p>
+                    </div>
+                    <div class="comments-shares">
+                        <span><a class="custom-a">3.3K Comments</a></span>
+                        <span><a class="custom-a">2.4K Shares</a></span>
+                    </div>
+                </div>
+                <hr class="custom-hr padding-15">
+                <div class="user-actions">
+                    <div class="user-actions-icons"><i class="far fa-thumbs-up"></i>Like</div>
+                    <div class="user-actions-icons"><i class="fas fa-comment-alt"></i>Comment</div>
+                    <div class="user-actions-icons"><i class="fas fa-share"></i>Share</div>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="ads">
+                <div class="ads-heading"><h4>Sponsered</h4></div>
+                <div class="ad">
+                    <img src="images/puma.jpg" alt="">
+                    <h4>Only 300$...Run Puma</h4>
+                </div>
+                <div class="ad">
+                    <img src="images/food-panda.png" alt="">
+                    <h4>Fastest Food Delivery</h4>
+                </div>
+            </div>
+            <div class="contacts">
+                <div class="contact-heading">
+                    <h4>Contacts</h4>
+                    <div class="find-contact">
+                        <div class="contact-options-icon-container"><i class="fas fa-video contact-options-icon"></i></div>
+                        <div class="contact-options-icon-container"><i class="fas fa-search"></i></div>
+                        <div class="contact-options-icon-container"><i class="fas fa-ellipsis-h"></i></div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <img class="contact-img" src="images/profile1.jpg" alt="">
+                    <h6>Zen Oliva</h6>
+                </div>
+                <div class="contact">
+                    <img class="contact-img" src="images/profile3.jpg" alt="">
+                    <h6>Rasha</h6>
+                </div>
+                <div class="contact">
+                    <img class="contact-img" src="images/profile4.jpg" alt="">
+                    <h6>Sarah</h6>
+                </div>
+                <div class="contact">
+                    <img class="contact-img" src="images/profile5.jpg" alt="">
+                    <h6>Oriza Steeve Rizona</h6>
+                </div>
+                <div class="contact">
+                    <img class="contact-img" src="images/profile6.jpg" alt="">
+                    <h6>Sasuke</h6>
+                </div>
+                <div class="contact">
+                    <img class="contact-img" src="images/profile7.jpg" alt="">
+                    <h6>Pyae Sone Min Naing</h6>
+                </div>
+                <div class="contact">
+                    <img class="contact-img" src="images/profile8.jpg" alt="">
+                    <h6>Tin Aung Toe</h6>
+                </div>
+                <div class="contact">
+                    <img class="contact-img" src="images/profile9.jpg" alt="">
+                    <h6>Htet Myat Linn</h6>
+                </div>
+                
+                <div class="contact">
+                    <img class="contact-img" src="images/SinonProfile.jpg" alt="">
+                    <h6>Sinon Loresca</h6>
+                </div>
+                <div class="contact">
+                    <img class="contact-img" src="images/SinonProfile.jpg" alt="">
+                    <h6>Sinon Loresca</h6>
+                </div>
+            </div>
+        </div>
+
+    </section>
 </body>
 </html>
