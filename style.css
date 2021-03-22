@@ -228,9 +228,10 @@ body {
   height: 90vh;
   padding: 15px 0 0 10px;
   position: fixed;
+  overflow: hidden;
 }
 .left-side:hover {
-  overflow-y: scroll;
+  overflow-y: auto;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -630,9 +631,10 @@ body {
   right: 3px;
   padding: 20px;
   color: var(--text-color);
+  overflow: hidden;
 }
 .right-side:hover {
-  overflow-y: scroll;
+  overflow-y: auto;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
